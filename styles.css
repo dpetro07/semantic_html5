@@ -16,6 +16,7 @@ header {
   left: 250px;
   width: 800px;
   font-family: Voltaire;
+  background-color: #E2E3DF;
 }
 
 nav {
@@ -32,12 +33,14 @@ section {
   position: absolute;
   left: 260px;
   width: 800px;
+  background-color: #E2E3DF
 }
 
 article {
   position: right;
   position: static;
   height: 500px;
+  background-color: gray;
 }
 
 footer {
@@ -45,8 +48,8 @@ footer {
   font-size: 30px;
 }
 
-footer {
-
+a {
+  color: #BE525E;
 }
 
 
