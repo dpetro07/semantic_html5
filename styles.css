@@ -1,0 +1,52 @@
+
+body {
+  background-color: gray;
+  font-size: 14px;
+  font-family: "Contrail One"
+}
+
+header, nav, article, section, footer {
+  border: 3px solid black;
+  margin: 10px;
+
+}
+
+header {
+  position: relative;
+  left: 250px;
+  width: 800px;
+  font-family: Voltaire;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 12px;
+  bottom: 0;
+  border: 5px solid black;
+  padding: px;
+  }
+
+
+section {
+  position: absolute;
+  left: 260px;
+  width: 800px;
+}
+
+article {
+  position: right;
+  position: static;
+  height: 500px;
+}
+
+footer {
+  position: static;
+  font-size: 30px;
+}
+
+footer {
+
+}
+
+
