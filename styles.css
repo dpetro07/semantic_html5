@@ -2,12 +2,13 @@
 body {
   background-color: gray;
   font-size: 14px;
-  font-family: "Contrail One"
+  font-family: 
 }
 
 header, nav, article, section, footer {
   border: 3px solid black;
-  margin: 10px;
+  margin: 2px;
+  background-color: #E2E3DF
 
 }
 
@@ -15,7 +16,7 @@ header {
   position: relative;
   left: 250px;
   width: 800px;
-  font-family: Voltaire;
+  font-family: "Voltaire";
   background-color: #E2E3DF;
 }
 
@@ -24,8 +25,9 @@ nav {
   left: 0;
   top: 12px;
   bottom: 0;
-  border: 5px solid black;
+  border: 8px solid black;
   padding: px;
+  font-family: "Michroma"
   }
 
 
@@ -33,23 +35,33 @@ section {
   position: absolute;
   left: 260px;
   width: 800px;
-  background-color: #E2E3DF
+  background-color: black
 }
 
 article {
   position: right;
   position: static;
+  margin: 0px;
   height: 500px;
-  background-color: gray;
+  background-color:#E2E3DF ;
+  z-index: 12;
 }
 
 footer {
   position: static;
   font-size: 30px;
+  font-family: "Michroma"
 }
 
 a {
   color: #BE525E;
 }
 
+ div {
+  position:fixed;
+  right: 0;
+  top: 70px;
+  bottom: 0
+
+}
 
